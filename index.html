@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Assignment</title>
+    <style>
+      body {
+        text-align: center;
+        justify-content: center;
+        background-color: black;
+        color: #efefef;
+      }
+      /* img{
+            margin: 5px;
+            cursor: pointer;
+        } */
+      /* table{
+          border: 2px solid black;
+        } */
+      /* * {
+        box-sizing: border-box;
+      }
+
+      /* Full-width input fields */
+      /* input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+      }
+
+      input[type="text"]:focus,
+      input[type="password"]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+
+      hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+      } */
+
+      /* Set a style for all buttons */
+      /* button {
+        background-color: #4caf50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+      }
+
+      button:hover {
+        opacity: 1;
+      } */
+
+      /* Extra styles for the cancel button */
+      /* .cancelbtn {
+        padding: 14px 20px;
+        background-color: #f44336;
+      } */
+
+      /* Float cancel and signup buttons and add an equal width */
+      /* .cancelbtn,
+      .signupbtn {
+        float: left;
+        width: 50%;
+      } */
+
+      /* Add padding to container elements */
+      /* .container {
+        padding: 16px;
+      } */
+
+      /* Clear floats */
+      /* .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      } */
+
+      /* Change styles for cancel button and signup button on extra small screens */
+      /* @media screen and (max-width: 300px) {
+        .cancelbtn,
+        .signupbtn {
+          width: 100%;
+        }
+      } * */
+    </style>
+  </head>
+  <body>
+    <!--                      38    to      42 -->
+
+    <!-- ============ TASK  38-44   ============== -->
+    <!-- ============== FUNCTIONS, switch statements, while… do-while loop  ================== -->
+
+    <!-- indexof Question no 5 -->
+    <!--   <button onclick="indexof()">click here</button>
+                                   <p id="blank"></p> --
+
+
+
+
+
+    <!--                  43 to  48             -->
+    <!-- <div>
+    <img src="./images/download (1).jpeg" alt="image" height="200" width="200" onclick="user()">
+    <img src="./images/download.jpeg" alt="image" height="200" width="200" onclick="user()">
+    <img src="./images/images (1).jpeg" alt="image" height="200" width="200" onclick="user()">
+    <img src="./images/images.jpeg" alt="image" height="200" width="200" onclick="user()">
+</div> -->
+
+    <!-- <table id="myTable">
+      <th>Index</th>
+      <th>Name</th>
+      <th>Class</th>
+      <tr>
+        <td>0</td>
+        <td>Jhon</td>
+        <td>10</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Hammad</td>
+        <td>9</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Ali</td>
+        <td>12</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Farhan</td>
+        <td>5</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Denny</td>
+        <td>7</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Sunny</td>
+        <td>8</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+
+      <tr>
+        <td>6</td>
+        <td>Doe</td>
+        <td>1</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+          <td>7</td>
+          <td>Mark</td>
+          <td>2</td>
+          <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+          <td>8</td>
+          <td>Zaid</td>
+          <td>11</td>
+          <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+          <td>9</td>
+          <td>Sundar</td>
+          <td>5</td>
+          <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+          <td>10</td>
+          <td>Mehta</td>
+          <td>7</td>
+          <td><button onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+    </table> -->
+
+    <!-- <img id="pop" src="./images/15.jpg" alt="image" height="100" width="100" onmouseover="myover()" onmouseout="mymouse()"> -->
+
+    <!-- <div>
+      <button id="subtract">Subtract</button>
+      <input type="text" value="0" >
+      <button id="add">Add</button>
+    </div> -->
+
+    <!-- --------------------49 to 52------------------------------- -->
+
+    <!-- <form action="action_page.php" style="border:1px solid #ccc" id="name-form">
+      <div class="container">
+        <h1>Sign Up</h1>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+    
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+    
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+    
+        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    
+        <div class="clearfix">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <button type="submit" class="signupbtn" value="Submit">Sign Up</button>
+        </div>
+      </div>
+    </form>
+    <p id="result"></p> -->
+    <!-- 
+    <!-- <h1>User Information!!!</h1>
+
+    <details>
+      <summary>Some Information</summary>
+      <p>
+        Epcot is a theme park at Walt Disney World Resort featuring exciting
+        attractions, international pavilions, award-winning fireworks and
+        seasonal special events.
+      </p>
+    </details>
+    <p><b>Note!</b>
+    User Copy right 2020.. -->
+    <!-- </p> -->
+
+    <!-- <div id="wrapper">
+      <table align='center' cellspacing=2 cellpadding=5 id="data_table" border=1>
+      <tr>
+      <th>Index</th>
+      <th>Name</th>
+      <th>Class</th>
+      </tr>
+      
+      <tr id="row1">
+      <td id="name_row1">0</td>
+      <td id="country_row1">Jhon</td>
+      <td id="age_row1">10</td>
+      <td>
+      <input type="button" id="edit_button1" value="Edit" class="edit" onclick="edit_row('1')">
+      <input type="button" id="save_button1" value="Save" class="save" onclick="save_row('1')">
+      <input type="button" value="Delete" class="delete" onclick="delete_row('1')">
+      </td>
+      </tr>
+      
+      <tr id="row2">
+      <td id="name_row2">1</td>
+      <td id="country_row2">Hassan</td>
+      <td id="age_row2">4</td>
+      <td>
+      <input type="button" id="edit_button2" value="Edit" class="edit" onclick="edit_row('2')">
+      <input type="button" id="save_button2" value="Save" class="save" onclick="save_row('2')">
+      <input type="button" value="Delete" class="delete" onclick="delete_row('2')">
+      </td>
+      </tr>
+      
+      <tr id="row3">
+      <td id="name_row3">2</td>
+      <td id="country_row3">Zaid</td>
+      <td id="age_row3">13</td>
+      <td>
+      <input type="button" id="edit_button3" value="Edit" class="edit" onclick="edit_row('3')">
+      <input type="button" id="save_button3" value="Save" class="save" onclick="save_row('3')">
+      <input type="button" value="Delete" class="delete" onclick="delete_row('3')">
+      </td>
+      </tr>
+      
+      <tr>
+      <td><input type="text" id="new_name"></td>
+      <td><input type="text" id="new_country"></td>
+      <td><input type="text" id="new_age"></td>
+      <td><input type="button" class="add" onclick="add_row();" value="Add Row"></td>
+      </tr>
+      
+      </table>
+      </div> -->
+
+    <!-- ========= TASK 53-57 EVENTS ========= -->
+
+    <!-- 
+
+
+                                     <div class="img">  
+                                   <img   onclick="showImage(this)"  src="pic1.jpg" alt=""   id="image"  height="210" width="270"  data-toggle="modal" data-target="#exampleModal" >  
+                                      <img   onclick="showImage(this)" src="pic2.jpg" alt=""  height="210" width="270"  data-toggle="modal" data-target="#exampleModal"   >
+                                      <img  onclick="showImage(this)"  src="pic3.jpg" alt=""    height="210" width="270" data-toggle="modal" data-target="#exampleModal" class="img3"  >            
+                                      <img  onclick="showImage(this)"   src="pic4.jpg" alt="" height="210" width="270"   data-toggle="modal" data-target="#exampleModal" class="img4" >  
+                                        </div>
+                                 -->
+
+    <!-- Modal -->
+    <!-- 
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <img src="" alt=""  id="modalImage" class="bigImage">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+    <!-- <div>
+        <h1> DOM </h1>
+        <div id=”form-content” class=”content”>
+        <label for=”first-name”>First Name</label>
+        <input type=”text” id=”first-name” />
+        <label for=”last-name”>Last Name</label>
+        <input type=”text” id=”last-name” />
+        <label for=”email”>Email</label>
+        <input type=”text” id=”email” />
+        </div>
+        <div id=”main-content” class=”content”>
+        <p class=”render”> First Name : Alex</p>
+        <p class=”render” id=”lastName”>Last Name: Bank</p>
+        <p class=”render”> Email : alexbank@example.com</p>
+        <p class=”render”> Country : Pakistan </p>
+        <p class=”render”> contact : +92 300 1234567</p>
+        </div>
+        </div> -->
+
+    <script src="App.js"></script>
+  </body>
+</html>
